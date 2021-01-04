@@ -17,6 +17,7 @@ Pod::Spec.new do |spec|
   spec.exclude_files = 'Sources/**/LinuxSupport.swift'
   spec.module_map = 'BitcoinKit/BitcoinKit.modulemap'
   spec.ios.deployment_target = '8.0'
+  spec.osx.deployment_target = '10.14'
   spec.swift_version = '5.0'
 
   spec.pod_target_xcconfig = { 'SWIFT_WHOLE_MODULE_OPTIMIZATION' => 'YES',
